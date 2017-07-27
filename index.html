@@ -32,6 +32,7 @@
             </nav>
 
         </div>
+    </header>
         <div class="user-block">
             <a class="login" href="#">Вход</a>
         </div>
@@ -68,14 +69,65 @@
                     <a class="btn" href="#">Все новости</a>
                 </div>
                 <div class="index-content-right">
-
+                    <h2 class="index-content-title">Фотогалерея</h2>
+                    <div class="gallery">
+                        <figure class="gallery-content">
+                            <img src="img/photo1.jpg" width="286" height="164" alt="">
+                        </figure>
+                        <button class="btn-gallery-prev">Назад</button>
+                        <button class="btn-gallery-next">Вперед</button>
+                    </div>
                 </div>
+            </div>
+            <div class="index-content">
+                <div class="index-content-left">
+                    <h2 class="index-content-title">Контактная информация</h2>
+                    <p>Барбершоп "Бородинский"<br>
+                        Адрес: г. Санкт-Петербург, ул. Садовая, д.21, кв.9 <br>
+                        Телефон: +79083837264
+                    </p>
+                    <p>
+                        Время работы: <br>
+                        пн-пт: с 10-00 до 22-00 <br>
+                        сб-вс: с 10-00 до 14-00
+                    </p>
+                    <a class="btn" href="#">Как проехать</a>
+                    <a class="btn" href="#">Обратная связь</a>
+                </div>
+                <div class="index-content-right">
+                    <h2 class="index-content-title">Записаться</h2>
+                    <p>Укажите желаемую дату и время, мы с вами свяжемся для подтверждения брони</p>
+                    <form class="appoitment-form" action="index.html" method="post">
+                        <input type="text" name="date" value="" placeholder="Дата">
+                        <input type="text" name="time" value="" placeholder="Время">
+                        <input type="text" name="name" value="" placeholder="Имя">
+                        <input type="tel" name="phone" value="" placeholder="Телефон">
+                        <button class="btn" type="submit">Отправить</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="mine-footer">
+            <div class="container">
+                <section class="footer-contacts">
+                    Барбершоп "Бородинский" <br>
+                    Адрес: Адрес: г. Санкт-Петербург, ул. Садовая, д.21, кв.9 <br>
+                    <a href="#">Как нас найти?</a> <br>
+                    Телефон: +79083837264
+                </section>
+                <section class="footer-social">
+                    <p>Давайте дружить!</p>
+                    <a class="social-btn social-btn-vk" href="#">В контакте</a>
+                    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                    <a class="social-btn social-btn-inst"href="#">Инстаграм</a>
+                </section>
+                <section class="footer-copyright">
+                    <p>Разработано:</p>
+                    <a class="btn" href="http://oriflame40.ru">Я разработал</a>
+                </section>
 
             </div>
-
-        </main>
-
-    </header>
-
-</body>
+        </footer>
+    </body>
 </html>
